@@ -1,0 +1,19 @@
+body{
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+}
+
+h1{
+    font-size: 64px;
+}
+
+input{
+    height: 20px;
+}
+
+button{
+    height: 26px;
+}
+

@@ -1,0 +1,14 @@
+body{
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+}
+
+button{
+margin-top: 6%;
+margin-left: 6%;
+    width: 150px;
+    height: 30px;
+
+}

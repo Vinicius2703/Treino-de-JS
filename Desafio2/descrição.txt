@@ -1,0 +1,16 @@
+===========================================================================================
+Desafio: Verificador de Idade (Lógica e Input)
+Este é um clássico para treinar a captura de valores de formulário.
+
+Objetivo: Crie um <input type="number"> e um botão "Verificar".
+
+Ação: O usuário digita a idade.
+Se for menor de 18, o texto na tela fica vermelho e diz: "Acesso Negado".
+Se for 18 ou mais, o texto fica verde e diz: "Acesso Liberado".
+
+STATUS[FEITO]
+============================================================================================
+BONUS: fiz um sistema que pede nome e exibe na tela usando o comando prompt
+
+COMENTARIO: houve um pequeno problema na hora de rodar, o <script> estava acima de outros
+elementos, devo prestar mais atenção.  

@@ -1,0 +1,14 @@
+Este é oficialmente meu primeiro contato com Javascript, quero poder deixar
+meu progresso salvo, poder revisar conceitos e acima de tudo praticar conceitos de Javascript
+atravez de desafios propostos pelo Gemini.
+(fiz uma modificação basica no css e html pra n ficar tão simples :D)
+
+=============================================================================================
+Desafio: criar um botão que a cada clique, apareça em baixo a quantidade de vezes que cliquei
+status:[FEITO]
+=============================================================================================
+
+Bonus: incrementei uma condicional que quando chega num determinado um numero,é acionado
+um "alert" que diz que perdeu a conta, o contador zera e começa tudo de novo.  
+
+comentario: ainda estou meio perdido na sintax.
