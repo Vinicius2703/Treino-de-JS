@@ -1,0 +1,18 @@
+body{
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: rgb(54, 54, 54);
+    color: #f0f8ff;
+}
+
+h1{
+    font-size: 64px;
+}
+div img{
+    width: 120px;
+    margin-left: 15%;
+}
+button{
+    width: 100px;
+    margin-left: 16.5%;
+}

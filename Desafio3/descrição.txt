@@ -1,0 +1,20 @@
+=========================================================================================
+DESAFIO: Lâmpada Mágica (Troca de Atributos)
+OBJETIVO: Aprender a manipular atributos de imagem (o src) e não apenas texto.
+
+O QUE FAZER: Uma tag <img> com a foto de uma lâmpada apagada e um botão
+escrito "Acender/Apagar".
+
+LOGICA: * Quando clicar no botão, se a imagem for a da lâmpada apagada, troque para
+a imagem da lâmpada acesa (e vice-versa).
+
+DICA: Você vai usar um if para verificar o que está escrito no atributo src.
+
+FERRAMENTAS: document.getElementById().src, estruturas condicionais (if/else).
+
+STATUS[FEITO]
+==========================================================================================
+
+COMENTARIO: é bem dificil trabalhar com imagens, e tbm aprendi algo novo com o gemini:
+o "includes" irei pesquisar mais sobre
+

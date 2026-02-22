@@ -1,0 +1,21 @@
+===========================================================================================
+DESAFIO: Barra de Progresso de Cadastro (Step Wizard)
+Muitos sistemas reais (como bancos ou sites de seguro) dividem o cadastro em etapas para não
+assustar o usuário.
+
+O QUE FAZER: Crie uma "Barra de Progresso" (uma div cinza com uma div verde dentro, largura 0% inicialmente).
+
+Crie 3 campos: "E-mail", "Senha" e "Telefone".
+
+Cada vez que o usuário preencher um campo e sair dele (evento blur), a barra de progresso deve aumentar 33%.
+
+Quando chegar em 100%, mude a cor da barra para verde brilhante e mostre um botão "Finalizar Cadastro".
+
+O que praticar: Manipulação de largura (style.width) baseada em ações do usuário.
+
+STATUS[FEITO]
+==========================================================================================
+
+Comentario: me sai um pouco melhor na sintax,infelizmente n fiz a barrra de progresso
+mas fiz uma logica que faz com que o botão so fique disponivel quando os 3 campos ficam
+aceitaveis.  

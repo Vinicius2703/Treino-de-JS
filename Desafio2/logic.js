@@ -21,9 +21,11 @@ botao.addEventListener('click', () => {
     else if (idadeEmInt < 18) {
         resultado.innerText = `ACESSO NEGADO`;
     } 
-    else {
+    else if (idadeEmInt >= 18){
    
         resultado.innerText = `ACESSO LIBERADO!`;
+    } else{
+        resultado.innerText = 'Por favor, digite sua idade!';
     }
 })
 
