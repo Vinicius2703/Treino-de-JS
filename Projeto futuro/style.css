@@ -1,0 +1,62 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.carousel-viewport {
+    overflow: hidden; /* Esconde os slides que não estão ativos */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.carousel-track {
+    display: flex; /* Coloca slides lado a lado */
+    list-style: none;
+    transition: transform 0.5s ease-in-out; /* O segredo da suavidade */
+}
+
+.slide {
+    min-width: 100%; /* Cada slide ocupa toda a largura do viewport */
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* Botões */
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 10;
+}
+.btn-prev { left: -50px; }
+.btn-next { right: -50px; }
+
+/* Indicadores */
+.carousel-nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    background: #ccc;
+    cursor: pointer;
+}
+.indicator.active { background: #333; }

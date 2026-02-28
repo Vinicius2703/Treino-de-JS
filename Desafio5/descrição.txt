@@ -1,0 +1,14 @@
+=================================================================================
+1. Gerador de Cartão de Visitas Digital
+Em vez de apenas trocar texto, você vai criar uma ferramenta onde o usuário preenche dados e vê o cartão sendo montado.
+
+O Projeto: Um formulário à esquerda (Nome, Cargo, LinkedIn, GitHub) e um "cartão" estilizado à direita.
+
+A Lógica: Conforme o usuário digita no input, o texto dentro do cartão deve atualizar em tempo real (evento input).
+
+Utilidade Real: Você pode usar isso para criar assinaturas de e-mail ou perfis rápidos.
+
+O que você pratica: Manipulação de DOM e eventos de teclado.
+
+=================================================================================
+

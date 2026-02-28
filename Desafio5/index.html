@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de cartão de visitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="mode">Modo escuro</button><br>
+    <h1 id="titulo">Seu perfil</h1>
+
+    <div>
+        <div class="cartao">
+            <p id="name">Seu nome</p>
+            <p id="car">Seu cargo</p>
+            <p id="em">Seu email</p>
+            <p id="gith">Seu gitub</p>
+            <p id="li">Seu likedin</p>
+        </div>
+
+        <div class="info"  id = "card">    
+            <input type="text" placeholder="Nome" id="nomes"><br>
+            <input type="text" placeholder="Cargo" id="cargos"><br>
+            <input type="text" placeholder="Email" id="email"><br>
+            <input type="text" placeholder="GitHub" id="gitub"><br>
+            <input type="text" placeholder="Linkedin" id="link"><br>
+            <button disabled id="botao">enviar</button>
+        </div>
+
+
+    </div>    
+
+    <script src="logic.js"></script>
+</body>
+</html>

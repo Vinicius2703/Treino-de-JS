@@ -21,7 +21,7 @@ function verficar(){
     }
 }
 
-email.addEventListener('blur', () => {
+function validarE(){
     let emailV = email.value; // aqui coleto os dados, pego o valor que esta no input (o q o usuario digitar)
     let emailof = emailV.length; // aqui converto os dados para numeros, no caso estou pegando
     // o que o usuario pegou e estou contando quantos caracteres ele possui e guardando em
@@ -51,7 +51,7 @@ email.addEventListener('blur', () => {
     // =========================================================
     verficar()// toda vez que o saio do campo o sistema verifica se tudo esta aceitavel
     // mesmo se nao preenchi todos os campos
-})
+};
 
 // A PARTIR DAQUI A LOGICA SEGUE A MESMA PARA OS OUTROS CAMPOS ABAIXO: SENHA E USUARIO
 
