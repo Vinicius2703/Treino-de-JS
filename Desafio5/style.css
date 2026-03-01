@@ -51,7 +51,7 @@ input {
 button {
     width: 275px;
     padding: 12px;
-    background-color: #38bdf8;
+    background-color: #0071f3;
     color: white;
     border: none;
     border-radius: 6px;
@@ -60,6 +60,6 @@ button {
 }
 
 button:disabled {
-    background-color: #cbd5e1;
+    background-color: #6a92c4;
     cursor: not-allowed;
 }

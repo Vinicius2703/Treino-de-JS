@@ -1,0 +1,15 @@
+esse desafio foi feito pela IA, sera um projeto futuro dps que eu tiver
+mais afinidade com a linguagem, coloquei ai pra ser uma base de como ficaria. 
+
+=============================================================================
+
+STATUS[FEITO]
+o codigo ficou mais simples do que o que o gemini mostrou, mas ainda sim n tive capacidade de
+fazer ele 100% solo, mas ta ai.
+
+comentario: de fato, nao vou conseguir fugir dos arrays, vou ter q aumentar mais
+o meu vocabulario se quiser avançar no js. 
+preciso aprender mais sobre html e css tbm
+
+
+

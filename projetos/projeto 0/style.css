@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(43, 43, 43);
+}
+.slide{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.carrossel{
+    background-color: brown;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    border: solid transparent;
+    border-radius: 20px;
+    color: aliceblue;
+
+    transition: transform 0.5s ease-in-out, background-color 0.5s;
+
+}
+
+.slide button{
+    margin-top: 6%;
+    height: 100px;
+    width: 50px;
+    opacity: 0.8;
+    transform: scale(1.1); /* Aumenta levemente */
+    cursor: pointer;
+
+}

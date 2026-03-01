@@ -1,0 +1,12 @@
+1. Landing Page de Vendas (E-book ou Curso)
+Focado em urgência e conversão.
+
+Contador Regressivo: Um cronômetro no topo indicando que o desconto acaba em breve.
+
+Menu "Scroll Suave": Links que levam o usuário direto para a seção de preços ou depoimentos.
+
+Botão "Voltar ao Topo": Aparece conforme o usuário lê o conteúdo extenso da página.
+
+Copiador de Cupom: Um card chamativo com um código (ex: QUERO10) que o usuário clica para copiar.
+
+Banner de Cookies: O aviso legal no rodapé para simular conformidade com a LGPD.
