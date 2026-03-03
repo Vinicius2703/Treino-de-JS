@@ -10,22 +10,19 @@ const receber = document.getElementById('input')
 const botao = document.getElementById('botao')
 let resultado = document.getElementById('resultado')
 
+
+
 botao.addEventListener('click', () => {
-    let idade = receber.value;
-    let idadeEmInt = Number(receber.value);
+    let idade = receber.value.trim();
+    let idadeEmInt = Number(idade);
 
-    if (idade === ""){
-        resultado.innerText = 'Por favor, digite sua idade!'
-    }
-    
-    else if (idadeEmInt < 18) {
-        resultado.innerText = `ACESSO NEGADO`;
+    if (idade === "" || isNaN(idadeEmInt)) {
+        resultado.innerText = 'Por favor, digite uma idade válida!';
     } 
-    else if (idadeEmInt >= 18){
-   
-        resultado.innerText = `ACESSO LIBERADO!`;
-    } else{
-        resultado.innerText = 'Por favor, digite sua idade!';
+    else if (idadeEmInt < 18) {
+        resultado.innerText = 'ACESSO NEGADO';
+    } 
+    else {
+        resultado.innerText = 'ACESSO LIBERADO!';
     }
-})
-
+});
